@@ -1,7 +1,0 @@
-
-class Add {
-          
-          add(int i, int j) {
-                   return i+j;
-           }
-}
