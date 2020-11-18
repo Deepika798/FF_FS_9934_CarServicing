@@ -35,9 +35,9 @@ public class BillDetailsController {
 			return new ModelAndView("billdetails");
 		} else {
 			if (userService.billdetails(billdetails))
-				return new ModelAndView("deliveryboy");
+				return new ModelAndView("success");
 			else
-				return new ModelAndView("servicesprovided");
+				return new ModelAndView("success");
 		}
 	}
 

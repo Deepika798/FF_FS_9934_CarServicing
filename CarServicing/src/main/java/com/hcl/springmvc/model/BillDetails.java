@@ -9,13 +9,10 @@ import javax.validation.constraints.NotEmpty;
 @Table(name="BillDetails")
 public class BillDetails {
 	 @Id
-	 @NotEmpty
 	 @Column(name="Id")
      private String id;
-	 @NotEmpty
 	 @Column(name="BillAmount")
      private double billAmount;
-	 @NotEmpty
 	 @Column(name="UserId")
      private int userId;
 	 @Column(name="ServiceCenterId")

@@ -88,7 +88,11 @@ public class UserDAOImpl implements UserDAO {
 			servicecenter.setEndDate(sc.getEndDate());
 			servicecenter.setDeliveryBoyId(sc.getDeliveryBoyId());
 			servicecenter.setRating(sc.getRating());
-			servicecenter.setId("S01");
+			//servicecenter.setId("S01");
+			//servicecenter.setId("S02");
+			//servicecenter.setId("S03");
+			//servicecenter.setId("S04");
+			//servicecenter.setId("S05");
 			//servicecenter.setDeliveryBoyId(518878);
 			session.save(servicecenter);
 			session.getTransaction().commit();

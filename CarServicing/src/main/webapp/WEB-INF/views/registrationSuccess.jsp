@@ -8,5 +8,6 @@
 </head>
 <body>
 <% out.print("Dear User, your registration is successfull!!!"); %>
+<a href ="login">Login</a>
 </body>
 </html>

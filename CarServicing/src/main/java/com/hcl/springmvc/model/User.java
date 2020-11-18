@@ -5,6 +5,8 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+
 import org.hibernate.validator.constraints.Range;
 
 @Entity
@@ -18,8 +20,10 @@ public class User {
 	@Column(name="password")
 	private String password;
 	private String confirmPassword;
+	@NotEmpty
 	@Column(name="firstName")
 	private String firstName;
+	@NotEmpty
 	@Column(name="lastName")
 	private String lastName;
 	@Column(name="age")

@@ -41,7 +41,6 @@
 				<tr>
 					<td align="center" colspan="2"><input type="submit"
 						value="save"> <input type="reset" value="Reset">
-						<a href="home">home</a></td>
 				</tr>	
 			</table>
 		</form:form>

@@ -24,9 +24,9 @@ public class ServicesProvidedController {
 			return new ModelAndView("servicesprovided");
 		} else {
 			if (userService.servicesprovided(servicesprovided))
-				return new ModelAndView("billdetails");
+				return new ModelAndView("success");
 			else
-				return new ModelAndView("loginfailed");
+				return new ModelAndView("success");
 		}
 	}
 

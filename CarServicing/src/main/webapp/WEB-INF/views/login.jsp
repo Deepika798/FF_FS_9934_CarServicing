@@ -30,9 +30,11 @@
 				<tr>
 					<td align="center" colspan="2"><input type="submit"
 						value="Login">
-						<a href="servicecenter">servicecenter</a></td>
+						<input type="submit" value="cancel"></a></td>
 				</tr>
+				
 			</table>
+			<a href="deliveryboy">Click Here to go  deliveryboy</a>
 		</form:form>
 	</div>
 </body>

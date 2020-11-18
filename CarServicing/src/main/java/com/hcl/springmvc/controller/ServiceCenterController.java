@@ -28,9 +28,9 @@ public class ServiceCenterController {
 			return new ModelAndView("servicecenter");
 		} else {
 			if (userService.servicecenter(servicecenter))
-				return new ModelAndView("servicesprovided");
+				return new ModelAndView("servicecenter");
 			else
-				return new ModelAndView("loginFailed");
+				return new ModelAndView("success");
 		}
 	}
 

@@ -14,6 +14,12 @@
 		<h1>Welcome to ServiceCenter</h1>
 		<form:form action="servicecenter" method="post" modelAttribute="servicecenter">
 			<table border=1>
+				<tr>
+					<td>Id</td>
+					<td><form:input type="text" path="id" style="width: 120px"
+							placeholder="Enter your id" /><font color="red"><form:errors
+								path="id"></form:errors></font></td>
+				</tr>
 				
 				<tr>
 					<td>CenterName</td>
@@ -24,7 +30,7 @@
 				
 				<tr>
 					<td>FullAddress</td>
-					<td><form:input type="text" path="fullAddress" style="width: 120px"
+					<td><form:input type="text" path="fullAddress" style="width: 150px"
 							placeholder="Enter your fullAdress" /><font color="red"><form:errors
 								path="fullAddress"></form:errors></font></td>
 				</tr>
@@ -69,10 +75,13 @@
 				<tr>
 					<td align="center" colspan="2"><input type="submit"
 						value="save"> <input type="reset" value="Reset">
-						<a href="servicesprovided">ServicesProvided</a></td>
 				</tr>
 				
 			</table>
+			<a href="servicesprovided">Click Here to go for ServicesProvided</a>
+			<a href="billdetails">Click here to go for billdetails</a>
+			<a href="deliveryboy">Click here to go for DeliveryBoy Details</a>
+			
 		</form:form>
 	</div>
 </body>

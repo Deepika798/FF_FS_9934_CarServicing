@@ -35,9 +35,13 @@
 				<tr>
 					<td align="center" colspan="2"><input type="submit"
 						value="Save"> <input type="reset" value="Reset">
-						<a href="billdetails">billdetails</a></td>
+						</td>
 				</tr>	
 			</table>
+			
+			<a href="billdetails">billdetails</a>
+			<a href="deliveryboy">DeliveryBoy</a>
+			
 		</form:form>
 	</div>
 </body>

@@ -24,9 +24,9 @@ public class DeliveryBoyController {
 			return new ModelAndView("deliveryboy");
 		} else {
 			if (userService.deliveryboy(deliveryboy))
-				return new ModelAndView("deliveryboy");
+				return new ModelAndView("success");
 			else
-				return new ModelAndView("loginFailed");
+				return new ModelAndView("success");
 		}
 	}
 
